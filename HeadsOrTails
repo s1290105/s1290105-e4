@@ -5,6 +5,11 @@
 int main(){
   int coin[3],head = 0,tail = 0;
   int i;
+  char name[20];
+  
+  printf("Who are you?\n> ");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
   
   srand(time(NULL));
   for( i = 0; i < 3; i++ ){
